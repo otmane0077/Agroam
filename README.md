@@ -10,7 +10,7 @@ Fonctionnalités de notification pour alerter les utilisateurs sur les événeme
 
 
 ## Collaborateurs
-Othmane Zahhaoui.
+Othmane Zahhaoui et 
 Mehdi laktati.
 
 ## Objectif
