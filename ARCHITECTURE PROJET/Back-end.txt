@@ -1,1 +1,24 @@
+## Architecture du Back-End
 
+### API REST avec Spring Boot
+- Création d'une API REST pour faciliter la communication entre le front-end (ReactJS) et le back-end.
+- Les endpoints de l'API permettront la collecte, la mise à jour, la suppression et la consultation des données agricoles.
+
+### Base de données
+- Choix d'une base de données adaptée au stockage et à l'analyse de grandes quantités de données (par exemple, PostgreSQL, MongoDB).
+- Conception du schéma de base de données pour stocker les informations collectées par le système embarqué.
+
+### Intégration système embarqué
+- Mise en place de services pour communiquer avec le système embarqué et collecter les données en temps réel.
+- Gestion des erreurs et des interruptions pour assurer une collecte de données fiable.
+
+### Analyse des données
+- Développement de fonctionnalités d'analyse de données pour générer des insights à partir des données collectées.
+- Utilisation de bibliothèques d'analyse de données et d'intelligence artificielle si nécessaire.
+
+### Sécurité
+- Implémentation de mécanismes de sécurité pour protéger l'accès aux données et aux fonctionnalités de la plateforme.
+- Authentification des utilisateurs, gestion des rôles et des permissions.
+
+### Notifications
+- Système de notification pour alerter les utilisateurs sur les événements importants détectés par l'analyse des données.
