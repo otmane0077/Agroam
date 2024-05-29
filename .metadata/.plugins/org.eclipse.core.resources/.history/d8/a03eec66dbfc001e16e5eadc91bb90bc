@@ -1,0 +1,38 @@
+package com.esisa.agroamPFA.dto;
+
+import java.util.List;
+
+import com.esisa.agroamPFA.model.Node;
+import com.esisa.agroamPFA.model.User;
+
+public class UserNodesDto {
+    private User user;
+    private List<Node> nodes;
+
+    // Constructeur par défaut
+    public UserNodesDto() {
+    }
+
+    // Constructeur avec paramètres
+    public UserNodesDto(User user, List<Node> nodes) {
+        this.user = user;
+        this.nodes = nodes;
+    }
+
+    // Getters et Setters
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public List<Node> getNodes() {
+        return nodes;
+    }
+
+    public void setNodes(List<Node> nodes) {
+        this.nodes = nodes;
+    }
+}

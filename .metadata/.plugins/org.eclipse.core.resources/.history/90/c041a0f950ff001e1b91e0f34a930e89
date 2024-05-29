@@ -1,0 +1,6 @@
+spring.application.name=agroamPFA
+spring.data.mongodb.database=db_agroam
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.main.allow-bean-definition-overriding=true
+
